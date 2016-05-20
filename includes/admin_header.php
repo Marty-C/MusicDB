@@ -1,0 +1,56 @@
+<?php ob_start(); ?>
+<?php  include "includes/db.php"; ?>
+<?php  include "functions.php"; ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Music Collection</title>
+
+    <!-- Bootstrap Core CSS -->
+<!--    <link href="css/test.css" rel="stylesheet">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/test.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src='js/multifilter.js'></script>
+    <script src='js/report.js'></script>
+
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<script type='text/javascript'>
+    //<![CDATA[
+    $(document).ready(function() {
+        $('.filter').multifilter()
+    })
+    //]]>
+</script>
+
+<body>
